@@ -15,3 +15,10 @@ TaskR is an app that
 
 <b> Back-end</b>: MongoDB
 
+
+## Design Tools:
+
+<b> [Figma](https://www.figma.com/file/e3jbNP04KkDXkenNZk75wR/Untitled?node-id=3%3A17)
+
+
+<b> [Trello](https://trello.com/b/ZOvVXkhB/todos)
