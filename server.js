@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+let groupsRouter = require('./routes/groups');
 
 var app = express();
 
@@ -21,11 +22,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/groups', groupsRouter);
+
 app.get('/login', function(req,res){
   res.render("login")
 })
-app.listen(3000, function(){
-  console.log('listening on port 3000')
+app.listen(3001, function(){
+  console.log('listening on port 3001')
 })
 
 // catch 404 and forward to error handler
