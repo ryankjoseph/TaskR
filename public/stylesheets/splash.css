@@ -1,0 +1,46 @@
+#splash-container{
+    display: grid;
+    place-content: center;
+    background: linear-gradient(black,#312731);
+    height:100vh;
+    width:100vw;
+    text-align: center;
+}
+
+#logo-container{
+    display:grid;
+    place-content:center;
+    color:#312731;
+    font-size: larger;
+    background: #C69C6D;
+    height:40vh;
+    width: 70vw;
+    text-align: center;
+    gap:1ch;
+    margin-bottom: 40px;
+}
+
+#splash-body{
+    background:#312731
+}
+
+#login-button{
+    background:#C69C6D;
+    color:#312731;
+    border:none;
+}
+#login-button:hover{
+    opacity:0.4;
+    color:white;
+}
+
+#signup-button{
+
+}
+
+#taskR-tagline{
+    font-size:large;
+}
+.portal-button{
+
+}
