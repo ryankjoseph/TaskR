@@ -5,6 +5,7 @@ var router = express.Router();
 const taskBoardCtrl = require('../controllers/taskBoard');
 
 router.get('/', taskBoardCtrl.index)
+module.exports=router;
 
 
 
