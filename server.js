@@ -3,11 +3,13 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+require('./config/database')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 let groupsRouter = require('./routes/groups');
 let taskBoardRouter = require('./routes/taskBoard');
+const req = require('express/lib/request');
 
 var app = express();
 
